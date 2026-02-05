@@ -6,6 +6,7 @@ def check_palidrome(n):
     return k == reverse_n
 def count_vowels(n):
     s = {'a','e','i','o','u'}
+    c = 0
     for i in n :
         if i in s:
             c = c + 1
